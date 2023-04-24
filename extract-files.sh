@@ -15,6 +15,7 @@ fi
 set -e
 
 export DEVICE=akari
+export DEVICE_COMMON=tama-common
 export VENDOR=sony
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
