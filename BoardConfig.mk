@@ -19,5 +19,9 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/props/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/props/vendor.prop
 
+# Partitions
+# Reserve space for data encryption (44712771584-16384)
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 44712755200
+
 # Inherit from the proprietary version
 include vendor/sony/akari/BoardConfigVendor.mk
