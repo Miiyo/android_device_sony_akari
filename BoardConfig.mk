@@ -12,6 +12,9 @@ DEVICE_PATH := device/sony/akari
 # Display
 TARGET_SCREEN_DENSITY := 440
 
+# Kernel
+TARGET_KERNEL_CONFIG := tama_akari_defconfig
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
 
