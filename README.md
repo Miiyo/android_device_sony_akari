@@ -1,6 +1,6 @@
-# Device tree for Xperia XZ2 (akari)
+# Device tree for Xperia XZ2 KDDI (SOV37)
 
-The Xperia XZ2 (codenamed _"akari"_) is a high-end, mid-range smartphone from Sony.
+The Xperia XZ2 SOV37 (codenamed _"akari-kddi"_) is a high-end, mid-range smartphone from Sony.
 
 It was released in April 2018.
 
